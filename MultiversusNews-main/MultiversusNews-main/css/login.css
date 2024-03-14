@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(68, 47, 115);
+    background: linear-gradient(180deg, rgba(68, 47, 115, 1) 27%, rgba(95, 50, 124, 1) 51%, rgba(121, 52, 133, 1) 74%, rgba(148, 55, 142, 1) 89%);
+    height:100vh;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px; 
+    align-items: center;  
+    color: #f2c2dc;
+    width: auto;
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.nav-itens{
+    list-style: none;
+    display: flex;
+}
+
+.nav-itens>li>a{
+   padding-left: 20px;
+   font-family: "Poppins", sans-serif;
+   color: #f2c2dc;
+   text-decoration: none;
+}
+
+.cadastro{
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2d16d;
+    color: #442f73;
+    font-family: "Poppins", sans-serif;
+}
+.cadastro:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    border-radius: 5px; 
+}
+
+form {
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border: 1px solid #f2c2dc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction:column;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #f2c2dc;
+    font-family: "Poppins", sans-serif;
+}
+
+input {
+    width: 250px;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.login {
+    background-color: #f2c2dc;
+    width: 150px;
+    color: #442f73;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    margin-left: 50px;
+}
+
+button:hover {
+    background-color: #442f73;
+    color: #f2c2dc;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+footer {
+    background-color: #442f73;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
